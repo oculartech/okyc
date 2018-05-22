@@ -14,6 +14,7 @@
 \usepackage{array}
 \usepackage{longtable}
 \usepackage{hyperref}
+\usepackage[table]{xcolor}
 
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{lemma}[theorem]{Lemma}
@@ -32,9 +33,12 @@
 \renewcommand{\arraystretch}{1.5}
 \tabulinesep = 2mm
 \setcounter{section}{-1}
+\setlength{\arrayrulewidth}{0.5mm}
+\setlength{\tabcolsep}{18pt}
 \let\tempone\itemize
 \let\temptwo\enditemize
 \renewenvironment{itemize}{\tempone\addtolength{\itemsep}{-5pt}}{\temptwo}
+\pagenumbering{gobble}
 
 \title{\includegraphics[width=1.1\textwidth]{logo-company}
 Automated Compliance Technologies}
@@ -46,7 +50,7 @@ Automated Compliance Technologies}
 
 \maketitle
 \clearpage
-
+\pagenumbering{arabic}
 \section*{\centerline{Abstract}}
 The exponential growth in electronic commerce and the accelerating evolution of the crypto economy\footnote{\href{https://www.bloomberg.com/news/articles/2018-03-18/growth-of-crypto-assets-may-threaten-financial-system-fsb-says}{https://www.bloomberg.com/../growth-of-crypto-assets-may-threaten..}} increasingly necessitate identity validation\footnote{\url{https://hackernoon.com/kyc-aml-and-cryptocurrencies-4e4cf929c151}} of the parties involved in both centralized and decentralized business transactions. 
 
@@ -507,5 +511,67 @@ In addition to ongoing research and development, Ocular is dedicated to creating
 Ocular brings together users, validators, and service providers in a decentralized ecosystem that contributes value to the realm of cryptocurrency not only through blockchain technology, but also through the social and business standpoint of Token Offerings and crypto projects. Ocular is a critical part of a larger industry move that demands smooth, legally-compliant onboarding processes in order to generate and facilitate the mass adoption of crypto in the near future.
 
 The Ocular system is special since it incorporates the best parts of uPort, Civic{\footnote{\url{https://www.civic.com}} and other identity management systems while simultaneously tackling the issue of payment solutions and integration of financial services in the cryptocurrency world. These two verticals go hand in hand in the space and Ocular is the only system attempting to combine it into one coherent approach. It is our firm belief that with our strong partnerships in traditional finance, we will truly revolutionize and empower future financial services built using these exciting technologies. 
+
+\clearpage
+\section{Token Offering}
+The Ocular token offering is privately sold, and the corresponding token issuing process will be on the 1st of july 2018. This is organized around smart contracts running on Ethereum, with participants who are willing to assist in the development of the Ocular project. The project has market cap of 27,000 ETH. Rates locked on BTC/ETH at end of private sale.
+
+\section{OKYC}
+Ocular’s tokens are called OKYC, they are deployed on the Ethereum network, which is widely adopted for cryptocurrency solutions.  The token is fully ERC223/ERC20 compliant, so it can easily be implemented into other services, wallets, hardware etc.
+\\
+\\
+{\rowcolors{2}{white!8!white!5}{gray!24!gray!16}
+\begin{tabular}{ |p{4.1cm}|p{5.3cm}|  }
+\hline
+\multicolumn{2}{|c|}{OKYC} \\
+\hline
+Ticker & OKYC \\
+Token Issuer & Ocular Global LLC \\
+Jurisdiction of Issuance & St Kitts \& Nevis\\
+OKYC total supply & 600mm \\
+Hard Cap    &30,000 ETH \\
+Fundraising goal & 27,000 ETH \\
+Token price & 1 OKYC = .000125 ETH (1 ETH = 8000 OKYC)    \\
+Private sale & 40\% of token supply (of which 60\% at release, 10\% per month after for 4 months)  \\
+Foundation/reserve & 30\% of token supply (released 5x 6months cliffs) \\
+Team & 15\% of token supply (released 5x 6months cliffs) \\
+Advisor and strategic partners & 10\% of token supply (released 5x 3months cliffs) \\
+Bounty/fees/community & 5\% of token supply \\
+\hline
+\end{tabular}
+
+\clearpage
+
+\section{Distribution of funds}
+
+A total of 25\% of minted tokens will be held in a growth fund to be used to incentivize users to participate in the OKYC ecosystem, to reward early adopters and fund the integration of the Ocular platform with strategic partners.
+\\
+\\
+Ocular proceeds are distributed in the following manner:
+\\
+\\
+\begin{tabular}{ |p{4.1cm}|p{5.3cm}|  }
+\hline
+Team & 25\% \\
+Operating expenses & 75\% \\
+\hline
+\end{tabular}
+\\
+\\
+Operating expenses are distributed in the following manner:
+\\
+\\
+\begin{tabular}{ |p{4.1cm}|p{5.3cm}|  }
+\hline
+Software development & 25\% \\
+Marketing \& free integration/usage & 25\% \\
+Reserves & 10 \% \\
+Advocacy \& Evangelism & 15\% \\
+Operations & 20\% \\
+Launch Expenses & 5\% \\
+\hline
+\end{tabular}
+
+
 
 \end{document}
